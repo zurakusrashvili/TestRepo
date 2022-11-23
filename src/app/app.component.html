@@ -1,0 +1,17 @@
+<button class="addProductBtn" click="addProduct()">
+<i class="bi bi-plus-lg"></i>
+</button>
+
+
+<div class="container" *ngIf="true">
+<div class="row">
+    <div class="card col-md-3" *ngFor="let product of products">
+        <img src="{{product.img}}" class="cardImg card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{product.title}}</h5>
+          <p class="card-text">{{product.description}}</p>
+          <a href="#" class="btn btn-primary">ID: {{product.id}}</a>
+        </div>
+      </div>
+</div>
+</div>

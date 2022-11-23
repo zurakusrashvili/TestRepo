@@ -1,0 +1,21 @@
+.cardImg {
+  width: 50% !important;
+  height: 50% !important;
+  display: block;
+  margin: auto;
+}
+
+.card {
+  text-align: center;
+}
+
+.addProductBtn {
+  position: fixed;
+  right: 0px;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  background: tomato;
+  font-size: 28px;
+  color: white;
+}
